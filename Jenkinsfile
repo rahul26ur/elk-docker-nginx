@@ -15,7 +15,7 @@ pipeline {
         stage('Dependencies') {
             steps {
                 echo 'Fetching dependencies...'
-                sh 'make deps'
+                
             }
         }
 
